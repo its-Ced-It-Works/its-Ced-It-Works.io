@@ -14,7 +14,8 @@
 	color: #0099cc;
 }
 
-.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary 
+{
 	color: #33a6cc;
 	border-color: #33a6cc;
 }
@@ -23,4 +24,3 @@
 	color: #007299;
 	box-shadow: none;
 }
-byscus
