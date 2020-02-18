@@ -14,6 +14,12 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="css/indexCSS.css">
 
+    <!-- awesome icons -->
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+
     <title>Cedrick Platt</title>
   </head>
   <body class="text-hero">
@@ -32,7 +38,7 @@
         <div id="photo" class="col-3">
         <img src="images/grad.JPG" class="img-fluid rounded" alt="Me at graduation">
         </div>
-        <div class="col-7">
+        <div class="col-6">
           <h1>Cedrick Platt</h1>
           <p>I have my Bachelor of Engineering Science in <a class="mylink" href="https://www.wits.ac.za/course-finder/undergraduate/ebe/digital-arts/">Digital Arts</a>. But I'll just call it game design on the engineering side, or electrical engineering lite.</p>
           <br>
@@ -43,18 +49,82 @@
       </div>
     </div>
 
-    <div class="jumbotron">
-      <h2 class="text-center">About Me</h2>
+    <div id="aboutGroup" class="jumbotron">
+     <h1 class="text-center"><a class="text-center" type="button" data-toggle="collapse" data-target=".multi-collapse" data-parent="#aboutGroup" aria-expanded="false" aria-controls="contactMe myDegree myProjects myLanguages">About Me</a></h1>
       <div class="container">
         <div class="row">
-          <div class="col-4">
-            <h3>Where am I from?</h3>
+          <div class="col-3">
+            <a class="mylink" data-toggle="collapse" data-parent="#aboutGroup" href="#contactMe" role="button" aria-expanded="false" aria-controls="contactMe">
+              <h2>Contact Me</h>
+            </a>
           </div>
-          <div class="col-4">
-            <h3>What have I done?</h3>
+
+          <div class="col-3">
+            <a class="mylink" data-toggle="collapse" data-parent="#aboutGroup" href="#myDegree" role="button" aria-expanded="true" aria-controls="myDegree">
+              <h2>Game Design?</h2>
+            </a>
           </div>
-          <div class="col-4">
-            <h3>skrr</h3>
+
+          <div class="col-3">
+            <a class="mylink" data-toggle="collapse" data-parent="#aboutGroup" href="#myProjects" role="button" aria-expanded="false" aria-controls="myProjects">
+              <h2>Previous Projects</h2>
+            </a>
+          </div>
+
+          <div class="col-3">
+            <a class="mylink" data-toggle="collapse" data-parent="#aboutGroup" href="#myLanguages" role="button" aria-expanded="false" aria-controls="myLanguages">
+              <h2>Languages</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="collapse multi-collapse" data-parent="#aboutGroup" id="contactMe">
+          <div class="card card-body">
+            <h3>Contact Information</h3>
+            <br>
+              <h4>
+                <p>
+                  <span class="glyphicon glyphicon-envelope">
+                    <i class="material-icons">
+                    mail
+                    </i>
+                  </span> cedrick.platt@hotmail.co.za
+                  <br>
+                  <i class="material-icons">
+                    phone_android
+                    </i> +2772 887 3433
+                </p>
+              </h4>
+          </div>
+        </div>
+        <div class="collapse multi-collapse" data-parent="#aboutGroup" id="myDegree">
+          <div class="card card-body mycolour">
+            <h3>Game Design?</h3>
+              <br>
+              <h4>What is it?</h4>
+              <p>My degree is weird, it's a dual degree that has an art and engineering side. The engineering side has elements of Electrical Engineering, like engineering mathematics, circuits, electronics, electromagnetic systems and signals and systems I. The game design portion came from the artside. There we learned the theory behind games and applied them in the form of analogue games, like board games, and digital games. For the digital games, we learned C# and Unity.</p>
+          </div>
+        </div>
+        <div class="collapse multi-collapse" data-parent="#aboutGroup" id="myProjects">
+          <div class="card card-body">
+            <h3>See me do that work work</h3>
+              <br>
+              <h4>DD Glance</h4>
+              <p>Dimension Data Glace is a fourth place project that was demoed at Dimension Data's Hackfest 2019.1 held by its Building_20. It is a AV system checker that uses the scanning of QR codes to enable frictionless ticket logging for Dimension Data employees.</p>
+              <br>
+              <h4>DD Dash</h4>
+              <p>Dimension Data Dash is an employee enablment tool for Dimension Data Security. It acts as an encylopedia of the various security controls the Security division deals with. It's poised to answer three question related to the controls; What is it, Why's it important; What's the potential risk of not having it in place</p>
+          </div>
+        </div>
+        <div class="collapse multi-collapse" data-parent="#aboutGroup" id="myLanguages">
+          <div class="card card-body text-monospace mycolour">
+            <h3>Everything is broken</h3>
+              <br>
+              <h3>C#</h3>
+              <h3>C++</h3>
+              <h3>Python</h3>
           </div>
         </div>
       </div>
