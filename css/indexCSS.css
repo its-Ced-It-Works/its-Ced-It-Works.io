@@ -3,7 +3,12 @@
 	margin: 1rem;
 }
 
-.header
+.myHeading
+{
+	font-size: 2em;
+}
+
+.myColour
 {
  background-color: #ffd1dc;
  color: black;
