@@ -40,7 +40,7 @@
 	
 	/* Style the back side */
 	.flip-card-back {
-		height: ;
+		height: 92%;
 		transform: rotateY(180deg);
 	} 
 }
@@ -53,6 +53,23 @@
 #photo
 {
 	margin: 1rem;
+}
+
+#witsPhoto
+{
+	width: 500px;
+	height: 212px;
+}
+
+#mhsPhoto
+{
+	width: 212px;
+	height: 212px;
+}
+
+.carousel-item
+{
+	height: 50%;
 }
 
 .myHeading
