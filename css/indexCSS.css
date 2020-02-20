@@ -51,8 +51,8 @@
 	}
 
 	#witsPhoto{
-		height: 250px;
-		width: 300px;
+		height: 350px;
+		width: 250px;
 	}
 	
 	.hide-on-mobile
@@ -147,5 +147,9 @@
 
 .mylink
 {
+	color:#000080;
+}
+
+.carousel-indicators.active{
 	color:#000080;
 }
