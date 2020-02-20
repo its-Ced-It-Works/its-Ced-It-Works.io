@@ -49,6 +49,16 @@
 	.flip-card-back{
 		visibility: hidden;
 	}
+
+	#witsPhoto{
+		height: 250px;
+		width: 300px;
+	}
+	
+	.hide-on-mobile
+	{
+		visibility: hidden;
+	}
 }
 #photo
 {
