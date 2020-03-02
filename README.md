@@ -1,6 +1,6 @@
 # its-Ced-It-Works.io
 
-![alt-text](./images/Cedrick_Platt.png)
+![https://its-Ced-It-Works.io/its-Ced-It-Works.io/](./images/Cedrick_Platt.png)
 
 Hi I'm Cedrick. This is my personal webpage!
 

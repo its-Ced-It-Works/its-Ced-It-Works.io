@@ -17,14 +17,34 @@
   <link rel="stylesheet" href="css/indexCSS.css">
 
   <!-- awesome icons -->
-
-
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <title>Cedrick Platt</title>
 </head>
 
 <body class="text-hero myGrey">
+
+  <!-- Disclaimer -->
+  <div id="disclaimer" onclick="closeDisclaimer()" onkeydown="closeDisclaimer()">
+    <a id="close" onclick="closeDisclaimer()">
+      <i class="fas fa-window-close"></i>
+    </a>
+    <div id="opening">
+      <p>
+        <h5><em>This is living and growing just as I am. What you see today, you might not see tomorrow; What I know
+            tomorrow I learn today.</em></h5>
+        <hr>
+      </p>
+      <p class="hide-on-mobile">Click to continue</p>
+      <div class="hide-on-pc">
+        <p>This site is better experienced on a desktop</p>
+        <p>Tap to continue</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- /Disclaimer -->
+
   <!-- Header -->
   <div>
     <nav>
@@ -62,14 +82,12 @@
         <div class="col-lg-8 p-1">
           <h1>Cedrick Platt</h1>
           <p>I have my Bachelor of Engineering Science in <a class="mylink"
-              href="https://www.wits.ac.za/course-finder/undergraduate/ebe/digital-arts/">Digital Arts</a>. But I'll
-            just call it game design on the engineering side, or electrical engineering lite.</p>
+              href="https://www.wits.ac.za/course-finder/undergraduate/ebe/digital-arts/">Digital Arts</a>. It's game design on the engineering side of the degree, or as I call it electrical engineering lite.</p>
           <hr class="my-4">
-          <h5><em>This is living and growing just as I am. What you see today, you might not see tomorrow; What I know
-              tomorrow I learn today.</em></h5>
+          <h5><em>I Like learning new things</em></h5>
           <br class="p-4">
           <h3>
-            Currently I am a Secure Coding Intern at Dimension Data.
+            I am currently a Secure Coding Intern at Dimension Data.
           </h3>
         </div>
       </div>
@@ -117,7 +135,7 @@
 
     <div>
       <div class="collapse multi-collapse" data-parent="#aboutGroup" id="contactMe">
-        <div class="card card-body text-center">
+        <div class="myGrey card card-body text-center">
           <h3>Contact Information</h3>
           <br>
           <h4>
@@ -142,24 +160,28 @@
           <ul>
             <li>
               <p>
-                I am a passionate gamer, with a slight obsession in computer hardware. I enjoy both analogue and digital games.
+                I am a passionate gamer, with a slight obsession in computer hardware. I enjoy both analogue and digital
+                games.
               </p>
             </li>
             <li>
               <p>
-                Learning. Is this a copout? Learning and self-improvemet are top of mind items. I believe anyone can do it if they tried, even if it's not <q>well done</q>.
+                Learning. Is this a copout? Learning and self-improvemet are top of mind items. I believe anyone can do
+                it if they tried, even if it's not <q>well done</q>.
               </p>
             </li>
             <li>
               <p>
-                Game Design. This might be a slight case of Stockholm Syndrome with my degree, but I do enjoy designing and creating games. I like to try clone popular games to understand how they might have implemented a technical feature.
+                Game Design. This might be a slight case of Stockholm Syndrome with my degree, but I do enjoy designing
+                and creating games. I like to try clone popular games to understand how they might have implemented a
+                technical feature.
               </p>
             </li>
           </ul>
         </div>
       </div>
       <div class="collapse multi-collapse" data-parent="#aboutGroup" id="myProjects">
-        <div class="card card-body text-center">
+        <div class="card card-body myGrey text-center">
           <h3>What have I done?</h3>
           <br>
           <h4>DD Glance</h4>
@@ -282,6 +304,7 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/9be4de6a06.js" crossorigin="anonymous"></script>
+  <script src="./script/indexJS.js"></script>
 </body>
 
 </html>
