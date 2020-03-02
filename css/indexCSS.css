@@ -8,16 +8,14 @@ body{
 
 .fade-and-spin
 {
-	animation-name: fadeAndSpin;	
+	animation-name: fadeAndSlide;	
 	animation-duration: 2s;
 }
 
-@keyframes fadeAndSpin{
-	0% {
-		transform: rotateZ(0deg);
-	}
+@keyframes fadeAndSlide{
 	100% {
 		/*transform: rotateZ(360deg);*/
+		transform: translateY(-1000px);
 		opacity: 0%;
 		scale: 0;
 	}
