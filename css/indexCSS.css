@@ -197,6 +197,7 @@ body{
 
 #disclaimer
 {
+	cursor: pointer;
 	opacity: 95%;
 	background-color: black;
 	position: fixed;
