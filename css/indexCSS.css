@@ -4,6 +4,27 @@ body{
 	overflow: hidden;
 }
 
+/* animation class!*/
+
+.fade-and-spin
+{
+	animation-name: fadeAndSpin;	
+	animation-duration: 2s;
+}
+
+@keyframes fadeAndSpin{
+	0% {
+		transform: rotateZ(0deg);
+	}
+	100% {
+		transform: rotateZ(360deg);
+		opacity: 0%;
+		width: 0;
+	}
+}
+
+/* /animation class*/
+
  @media not screen and (max-width: 960px) {
 
 	.flip-card {
@@ -202,4 +223,9 @@ body{
 	top: -1%;
 	width: 2%;
 	height: auto;
+}
+
+footer{
+	bottom:0;
+	width: 100%;
 }
