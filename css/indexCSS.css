@@ -17,9 +17,9 @@ body{
 		transform: rotateZ(0deg);
 	}
 	100% {
-		transform: rotateZ(360deg);
+		/*transform: rotateZ(360deg);*/
 		opacity: 0%;
-		width: 0;
+		scale: 0;
 	}
 }
 
