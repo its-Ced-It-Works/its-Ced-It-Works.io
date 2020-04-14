@@ -16,4 +16,4 @@ function closeDisclaimer()
 
     document.getElementById("close").style.width = "0";
     document.getElementById("opening").style.width = "0";
-};
+}; 
