@@ -229,21 +229,21 @@ footer{
 	width: 100%;
 }
 
+.logoPhoto
+{
+
+}
+
 .node{
 	width: auto;
-	height: 15vh;
-	background-color: blanchedalmond;
+	height: auto;
+	padding-left: 20%;
+	background-color: white;
 }
 .node:hover
 {
-	scale:105%;
+	cursor: pointer;
+	scale:120%;
 	transform: translateY(-20px);
-}
-.node:active
-{
-	position: fixed;
-	top: 25%;
-	left: 25%;
-	height: 30%;
-	width: 50%;
+	z-index: 1;
 }
