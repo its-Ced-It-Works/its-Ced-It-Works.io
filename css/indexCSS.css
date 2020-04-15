@@ -244,6 +244,7 @@ footer{
 {
 	cursor: pointer;
 	scale:120%;
-	transform: translateY(-20px);
+	/*transform: translateY(-20px);*/
 	z-index: 1;
+	border: 1px;
 }
