@@ -15,7 +15,7 @@ body{
 @keyframes fadeAndSlide{
 	100% {
 		/*transform: rotateZ(360deg);*/
-		transform: translateY(-1000px);
+		/*transform: translateY(-1000px);*/
 		opacity: 0%;
 		scale: 0;
 	}
@@ -28,7 +28,7 @@ body{
 	.flip-card {
 		background-color: transparent;
 		/* */ width: 100%;
-		height: 91%; 
+		height: 80%; 
 		perspective: 100%; /* Remove this if you don't want the 3D effect */
 	}
 	
@@ -71,9 +71,9 @@ body{
 	}
 
 	.hide-on-pc
-{
-	visibility: hidden;
-}
+	{
+		visibility: hidden;
+	}
 }
 @media(max-width:960px)
 {
@@ -90,6 +90,13 @@ body{
 	{
 		visibility: hidden;
 	}
+	.node
+	{
+		width: auto;
+		height: auto;
+		padding-left: 15% !important;
+		background-color: white;
+	}
 }
 
 
@@ -102,7 +109,7 @@ body{
 #witsPhoto
 {
 	width: 500px;
-	height: 212px;
+	height: 200px;
 }
 
 #mhsPhoto
@@ -152,20 +159,21 @@ body{
 	border: none;
 }
 
-.btn-primary.outline {
-	color:#000080;
+.btn-primary, .btn-primary.outline, .btn-lg{
+	color:#000080 !important;
 }
 
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary 
 {
-	color: white;
-	border-color: white;
+	color: white !important;
+	border-color: white !important;
 }
-.btn-primary.outline:active, .btn-primary.outline.active {
-	border-color: grey;
-	color: grey;
+
+/* .btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: white !important;
+	color: white !important;
 	box-shadow: none;
-}
+} */
 
 .mylink:hover
 {
@@ -227,4 +235,19 @@ body{
 footer{
 	bottom:0;
 	width: 100%;
+}
+
+.node{
+	width: auto;
+	height: auto;
+	padding-left: 20%;
+	background-color: white;
+}
+.node:hover
+{
+	cursor: pointer;
+	scale:120%;
+	/*transform: translateY(-20px);*/
+	z-index: 1;
+	border: 1px;
 }
