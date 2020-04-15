@@ -71,9 +71,9 @@ body{
 	}
 
 	.hide-on-pc
-{
-	visibility: hidden;
-}
+	{
+		visibility: hidden;
+	}
 }
 @media(max-width:960px)
 {
@@ -89,6 +89,13 @@ body{
 	.hide-on-mobile
 	{
 		visibility: hidden;
+	}
+	.node
+	{
+		width: auto;
+		height: auto;
+		padding-left: 15% !important;
+		background-color: white;
 	}
 }
 
@@ -161,11 +168,12 @@ body{
 	color: white !important;
 	border-color: white !important;
 }
-.btn-primary.outline:active, .btn-primary.outline.active {
+
+/* .btn-primary.outline:active, .btn-primary.outline.active {
 	border-color: white !important;
 	color: white !important;
 	box-shadow: none;
-}
+} */
 
 .mylink:hover
 {
@@ -227,11 +235,6 @@ body{
 footer{
 	bottom:0;
 	width: 100%;
-}
-
-.logoPhoto
-{
-
 }
 
 .node{
