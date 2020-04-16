@@ -130,7 +130,7 @@
       <div class="row">
         <div class="col-lg-3">
           <a class="mylink" data-toggle="collapse" data-parent="#aboutGroup" href="#contactMe" role="button"
-            aria-expanded="false" aria-controls="contactMe">
+            aria-expanded="true" aria-controls="contactMe">
             <p class="myHeading text-center">Contact Me</p>
           </a>
         </div>
@@ -159,7 +159,7 @@
     </div>
 
     <div>
-      <div class="collapse multi-collapse" data-parent="#aboutGroup" id="contactMe">
+      <div class="collapse show" data-parent="#aboutGroup" id="contactMe">
         <div class="myGrey card card-body text-center">
           <h3>Contact Information</h3>
           <br>
@@ -183,48 +183,70 @@
           </h4>
         </div>
       </div>
-      <div class="collapse multi-collapse" data-parent="#aboutGroup" id="myDegree">
+      <div class="collapse" data-parent="#aboutGroup" id="myDegree">
         <div class="card card-body myPink">
-          <h3>Interests</h3>
-          <br>
-          <ul>
-            <li>
-              <p>
-                I am a passionate gamer, with a slight obsession in computer hardware. I enjoy both analogue and digital
-                games.
-              </p>
-            </li>
-            <li>
-              <p>
-                Learning. Is this a copout? Learning and self-improvemet are top of mind items. I believe anyone can do
-                it if they tried, even if it's not <q>well done</q>.
-              </p>
-            </li>
-            <li>
-              <p>
-                Game Design. This might be a slight case of Stockholm Syndrome with my degree, but I do enjoy designing
-                and creating games. I like to try clone popular games to understand how they might have implemented a
-                technical feature.
-              </p>
-            </li>
-          </ul>
+          <div class="row">
+            <div class="col-lg-6">
+              <h3>Professional Interests</h3>
+              <br>
+              <ul>
+                <li>
+                  <p>
+                    Hardware. I think it's crazy how we're making a rock "think". And on top of that we're making it execute lines of code and other instructions at a Gigahertz or Megahertz. Most PC processors today can operate at three Gigahertz, that's three thousand million times a second! 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Software. I feel it's incredible how we can enable others and ourselves by writting in a language, the machine,  the "rock", can understand. We can use software to connect millions at a time, sharing how people look and sound in an instant or render an images to be used in blockbuster movies. 
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h3>Personal Interests</h3>
+              <br>
+              <ul>
+                <li>
+                  <p>
+                    I am a passionate gamer. I enjoy both analogue and digital
+                    games spanning mutliple genres from real time strategy to role playing games.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Learning. Is this a copout? Learning and self-improvemet are top of mind items. I believe anyone can do
+                    it if they try, even if it's not <q>well done</q>. The effort in understanding can speak volumes of someone's character.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    HMI. I should really say Human-Machine-Interfaces. I find it incredible how with enough practice the methods of input we use become second nature, might that be a mouse and keyboard, a joy-stick or even a virtual reality headset and controller. We just naturally use it and do whatever we think of using it for.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="collapse multi-collapse" data-parent="#aboutGroup" id="myProjects">
-        <div class="card card-body myGrey text-center">
-          <h3>What have I done?</h3>
+        <div class="card card-body myGrey">
+          <h3 class="text-center">What have I worked on?</h3>
           <br>
-          <h4>DD Glance</h4>
-          <p>Dimension Data Glace is a fourth place project that was demoed at Dimension Data's Hackfest 2019.1 held by
-            its Building_20. It is a AV system checker that uses the scanning of QR codes to enable frictionless ticket
-            logging for Dimension Data employees.</p>
-          <br>
-          <h4>DD Dash</h4>
-          <p>Dimension Data Dash is an employee enablment tool for Dimension Data Security. It acts as an encylopedia of
-            the various security controls the Security division deals with. It's poised to answer three question related
-            to the controls; What is it, Why's it important; What's the potential risk of not having it in place</p>
+          <div class="row">
+            <div class="col-lg-6">
+              <h4>Dimension Data Glance</h4>
+              <p>Dimension Data Glace came in fourth place at Dimension Data's Hackfest 2019.1. It is a webapp that uses the scanning of QR codes to enable frictionless ticket logging of configuration items in meeting rooms, like projectors, for Dimension Data employees.</p>
+            </div>
+
+            <div class="col-lg-6">
+              <h4>Dimension Data Dash</h4>
+              <p>Dimension Data Dash is an enablement tool for Dimension Data Security employees. It acts as an encylopedia of the various security controls the Security division deals with. It answers three key questions related to each control; What is it, Why's it important; What's the potential risk of not having it in place.</p>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="collapse multi-collapse" data-parent="#aboutGroup" id="myLanguages">
         <div class="card card-body text-monospace myPink text-center">
           <h3>Did I save? Better hit ctrl+s again</h3>
