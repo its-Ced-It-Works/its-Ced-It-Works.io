@@ -152,7 +152,7 @@
         <div class="col-lg-3">
           <a class="mylink" data-toggle="collapse" data-parent="#aboutGroup" href="#myLanguages" role="button"
             aria-expanded="false" aria-controls="myLanguages">
-            <p class="myHeading text-center">Languages</p>
+            <p class="myHeading text-center">Technology</p>
           </a>
         </div>
       </div>
@@ -248,12 +248,38 @@
       </div>
 
       <div class="collapse multi-collapse" data-parent="#aboutGroup" id="myLanguages">
-        <div class="card card-body text-monospace myPink text-center">
-          <h3>Did I save? Better hit ctrl+s again</h3>
-          <br>
-          <h3>C#</h3>
-          <h3>C++</h3>
-          <h3>Python</h3>
+        <div class="card card-body myPink">
+          
+          <div class="row">
+            <div class="col-lg-3 text-monospace"> 
+              <h4>Did I save? Better hit ctrl+s again</h4>
+              <p>Languages I have experience with</p>
+              <hr class="my-3">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item myGrey round-top">C#</li>
+                <li class="list-group-item myGrey">C++</li>
+                <li class="list-group-item myGrey">python</li>
+                <li class="list-group-item myGrey">JavaScript</li>
+                <li class="list-group-item myGrey">CSS</li>
+                <li class="list-group-item myGrey rounded">HMTL</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <h4>If I mention the cloud its not a buzzword right?</h4>
+              <p>Cloud platforms I have dabbled in</p>
+              <br>
+              <hr class="my-2">
+              <h5>Microsoft Azure</h5>
+              <h5>Amazon Web Services</h5>
+            </div>
+            <div class="col-lg-3">
+              <h4>Business as usual</h4>
+              <p>Business Applications I have encountered in the wild</p>
+              <hr class="my-4">
+              <h5>SAP S4/Hana</h5>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -262,35 +288,41 @@
 
   <!-- Education -->
   <div id="myEducation" class="jumbotron myPink">
-    <h1 class="text-center">Qualification</h1>
+    <h1 class="text-center">Qualifications</h1>
     <br class="p-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <div class="node">
+          <div class="node rounded">
             <a data-toggle="modal" data-target="#ciscoModal"><img class="img-fluid my-img rounded-circle" src="images/CiscoLogo.png" alt="Cisoco certificatons"></a>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="node">
+          <div class="node rounded">
             <a data-toggle="modal" data-target="#fortinetModal"><img class="img-fluid my-img" src="images/FortinetLogo.png" alt="Fortinet certificatons"></a>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="node">
+          <div class="node rounded">
             <a data-toggle="modal" data-target="#AWSModal"><img class="img-fluid my-img" src="images/AWSLogo.png" alt="AWS certificatons"></a>
           </div>
         </div>
       </div>
+      <br class="hide-on-mobile p-4">
       <div class="row">
         <div class="col-lg-4">
-          <div class="node">
+          <div class="node rounded">
             <a data-toggle="modal" data-target="#WITSModal"><img class="img-fluid my-img" src="images/WitsLogo.png" alt="Wits certificatons"></a>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="node">
+          <div class="node rounded">
             <a data-toggle="modal" data-target="#MHSModal"><img class="img-fluid my-img" src="images/Mondeor-High-school.png" alt="Matric certificatons"></a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="node rounded">
+            <a data-toggle="modal" data-target="#CyModal"><img class="img-fluid my-img" src="images/cyLogo.png" alt="Cybrary certificatons"></a>
           </div>
         </div>
       </div>
@@ -306,11 +338,12 @@
           <div class="modal-header">
             <h5 class="modal-title" id="ciscoModalTitle">Cisco Fire Jumper Academy</h5>
           </div>
+          <p class="hide-on-mobile">Click image for pdf.</p><p class="hide-on-pc">Tap image for pdf.</p>
           <div class="modal-body">
-            <img class="img-fluid" src="images/ciscoCWE.png" alt="Cisco Cloud Web and Email">
+            <a href="./files/certifications/Cisco Fire Jumper Academy/CloudWebEmail - Stage 2.pdf"><img class="img-fluid" src="images/ciscoCWE.png" alt="Cisco Cloud Web and Email"></a>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <div class="modal-footer  myGrey ">
+            <button type="button" class="btn btn-primary outline" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -324,11 +357,12 @@
           <div class="modal-header">
             <h5 class="modal-title" id="fortinetModalTitle">Fortinet Network Security Expert</h5>
           </div>
+          <p class="hide-on-mobile">Click image for pdf.</p><p class="hide-on-pc">Tap image for pdf.</p>
           <div class="modal-body">
-            <img class="img-fluid" src="images/nse3.png" alt="NSE 3">
+            <a href="./files/certifications/Fortinet/NSE 3/NSE_3_Certificate.pdf"><img class="img-fluid" src="images/nse3.png" alt="NSE 3"></a>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <div class="modal-footer myGrey">
+            <button type="button" class="btn btn-primary outline" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -343,10 +377,11 @@
             <h5 class="modal-title" id="AWSModalTitle">AWS Cloud Practioner</h5>
           </div>
           <div class="modal-body">
-            <img class="img-fluid" src="images/awscloudprac.png" alt="AWS Cloud Practioner">
+            <p class="hide-on-mobile">Click image for pdf.</p><p class="hide-on-pc">Tap image for pdf.</p>
+            <a href="./files/certifications/AWS/AWS_CAF_Cloud_Practioner_Essentials.pdf"><img class="img-fluid" src="images/awscloudprac.png" alt="AWS Cloud Practioner"></a>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <div class="modal-footer myGrey">
+            <button type="button" class="btn btn-primary outline" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -361,10 +396,12 @@
             <h5 class="modal-title" id="WITSModalTitle">The University of the Witwatersrand</h5>
           </div>
           <div class="modal-body">
-            ...
+            <!-- <p class="hide-on-mobile">Click image for pdf.</p><p class="hide-on-pc">Tap image for pdf.</p>
+             -->
+             No digital copy available at this point in time
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <div class="modal-footer myGrey">
+            <button type="button" class="btn btn-primary outline" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -379,15 +416,37 @@
             <h5 class="modal-title" id="MHSModalTitle">Monder High School</h5>
           </div>
           <div class="modal-body">
-            ...
+            <!-- <p class="hide-on-mobile">Click image for pdf.</p><p class="hide-on-pc">Tap image for pdf.</p> -->
+            No digital copy available at this point in time
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <div class="modal-footer myGrey">
+            <button type="button" class="btn btn-primary outline" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
     <!-- /MHS -->
+
+    <!-- Cybrary -->
+    <div class="modal fade" id="CyModal" tabindex="-1" role="dialog" aria-labelledby="CyModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="CyModalTitle">Cybrary CompTIA Security Plus</h5>
+          </div>
+          <div class="modal-body">
+            <p class="hide-on-mobile">Click image for pdf.</p><p class="hide-on-pc">Tap image for pdf.</p>
+            <a href="./files/certifications/Comptia Security+/cybrary-cert-comptia-security-plus.pdf">
+              <img class="img-fluid" src="./images/cyCompTIA.png" alt="Cybrary CompTIA Security +">
+            </a>
+          </div>
+          <div class="modal-footer myGrey">
+            <button type="button" class="btn btn-primary outline" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Cybrary -->
 
   </div>
   <!-- /Education -->

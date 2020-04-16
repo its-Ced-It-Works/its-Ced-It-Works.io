@@ -99,7 +99,15 @@ body{
 	}
 }
 
+.round-bottom
+{
+	border-radius: 0xp 0px 50px 50px;
+}
 
+.round-top
+{
+	border-radius:50px 50px 0xp 0px;
+}
 
 #photo
 {
